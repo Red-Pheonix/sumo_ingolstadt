@@ -1,10 +1,9 @@
 <?xml version="1.0" ?>
 <configuration>
    <input>
-      <net-file value="ingolstadt_24h.net.xml.gz"/>
-      <route-files value="motorized_routes_2020-09-16_24h.rou.xml, bicycle_routes_24h.rou.xml"/>
-      <!-- <gui-settings-file value="gui_settings.settings.xml"/> -->
-      <additional-files value="tlLogics_WAUT_2020-09-16_24h.add.xml"/>
+      <!-- <net-file value="ingolstadt_24h.net.xml.gz"/> -->
+      <net-file value="reduced_net.net.xml"/>
+      <route-files value="reduced_motorized.rou.xml.gz, reduced_bicycle.rou.xml"/>
    </input>
    <time>
       <begin value="28800"/>
